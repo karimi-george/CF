@@ -15,55 +15,104 @@
 </head>
 
 <body>
-  <div class="navbar">
-    <h2>
-      Sneaker Company</h2>
-    <h3>Collections</h3>
-    <h3>Men</h3>
-    <h3>Women</h3>
-    <div class="main">
-      <div class="navbar">
-        <h2 class="sneakernav">
-          sneakers
-        </h2>
-        <p>Collections</p>
-        <p>Men</p>
-        <p>Women</p>
-        <p>About</p>
-        <p>Contacts</p>
-        <div class="addprofile">
-          <img src="./images/icon-cart.svg" alt="cart" class="cart">
-          <img src="./images/image-avatar.png" alt="" class="person">
+  <div class="center">
+    <div class="top">
+      <div class="logo">
+        <img class="img1" src="./images/logo.svg" alt="Sneakers Logo" />
+      </div>
+
+      <h3>Collections</h3>
+      <h3>Men</h3>
+      <h3>Women</h3>
+      <h3>About</h3>
+      <h3>Contact</h3>
+
+      <div class="end-side">
+        <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
+          <img class="img2" src="./images/icon-cart.svg" alt="" />
+        </svg>
+
+        <div class="user-avater">
+          <img
+            class="img3"
+            src="./images/image-avatar.png"
+            alt="User Avatar"
+          />
         </div>
       </div>
-        <!-- content -->
-      <div class="content">
-        <div class="images">
-          <div class="largeimg">
-            <img src="./images/image-product-1-thumbnail.jpg" alt="">       
-          </div>
-          <div class="smallimg">
-            <img src="./images/image-product-1-thumbnail.jpg" alt="">
-            <img src="./images/image-product-2-thumbnail.jpg" alt="">
-            <img src="./images/image-product-3-thumbnail.jpg" alt="">
-            <img src="./images/image-product-4-thumbnail.jpg" alt="">
-          </div>
-        </div>
-        <div class="description">
-          <p>sneaker company</p>
-          <h1>Fall Limited Edition <br>Sneakers</h1>
-          <p>These low profile sneakers are your perfect casual wear <br>companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer<br> <br></p>
-          <div class="price">
-            <p>$ 125.00</p>
-            <p>50%</p>
-          </div>
-        </div>
-      
-      </div>
-  
     </div>
-    
-  
+
+    <div>
+      <div>
+        <img src="/images/image-product-1-thumbnail.jpg" alt="" />
+
+        <!-- right side detais -->
+        <div>
+          <h2>SNEAKER COMPANY</h2>
+        </div>
+        <div>Fall Limited Edition Sneakers</div>
+        <p class="product-description">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+      </div>
+      <div class="product-details-wrapper">
+        <p class="product-brabd">Sneaker Company</p>
+        <h1 class="product-title">Fall Limited Edition Sneakers</h1>
+        <p class="product-description">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+
+        <div class="product-price">
+          <div class="current-price-wrapper">
+            <h2 class="current-price">$125.00</h2>
+            <span class="discount">50%</span>
+          </div>
+          <div class="previous-price-wrapper">
+            <span class="previous-price">$250.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-cart">
+        <div class="product-quantity">
+          <button type="button" class="button minus">
+            <img src="./images/icon-minus.svg" alt="Minus Icon" />
+          </button>
+          <span class="product-quantity-num">0</span>
+          <button type="button" class="button plus">
+            <img src="./images/icon-plus.svg" alt="Plus Icon" />
+          </button>
+        </div>
+
+        <button type="submit" aria-label="Add to cart" class="button add-btn">
+          <img src="./images/icon-cart.svg" alt="" />
+          Add to cart
+        </button>
+
+        <p class="form-alert"></p>
+      </div>
+
+      <!-- small images -->
+      <div class="minors">
+        <div class="thumb-image active">
+          <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+        </div>
+        <div class="thumb-image">
+          <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+        </div>
+        <div class="thumb-image">
+          <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+        </div>
+        <div class="thumb-image">
+          <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
