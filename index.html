@@ -15,104 +15,68 @@
 </head>
 
 <body>
-  <div class="center">
-    <div class="top">
-      <div class="logo">
-        <img class="img1" src="./images/logo.svg" alt="Sneakers Logo" />
-      </div>
-
-      <h3>Collections</h3>
-      <h3>Men</h3>
-      <h3>Women</h3>
-      <h3>About</h3>
-      <h3>Contact</h3>
-
-      <div class="end-side">
-        <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg">
-          <img class="img2" src="./images/icon-cart.svg" alt="" />
-        </svg>
-
-        <div class="user-avater">
-          <img
-            class="img3"
-            src="./images/image-avatar.png"
-            alt="User Avatar"
-          />
+  <nav>
+    <div class="header">
+      <img src="images/icon-menu.svg" alt="menu-btn" id="menu-btn">
+      <img src="images/logo.svg" alt="logo-pic">
+      <div class="nav-items">
+        <div class="close-btn">
+          <img src="images/icon-close.svg" alt="close-btn" id="close-btn">
         </div>
+        <a href="#">Collection</a>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
       </div>
     </div>
-
-    <div>
-      <div>
-        <img src="/images/image-product-1-thumbnail.jpg" alt="" />
-
-        <!-- right side detais -->
-        <div>
-          <h2>SNEAKER COMPANY</h2>
-        </div>
-        <div>Fall Limited Edition Sneakers</div>
-        <p class="product-description">
-          These low-profile sneakers are your perfect casual wear companion.
-          Featuring a durable rubber outer sole, they’ll withstand everything
-          the weather can offer.
-        </p>
+    <div class="profile-and-cart">
+      <img src="images/icon-cart.svg" alt="cart-svg" id="cart">
+      <img src="images/image-avatar.png" alt="avatar" id="profile">
+    </div>
+  </nav>
+<hr>
+  <div class="container">
+    <div class="product-images">
+      <div class="previous-and-next" id="previous-image">
+        <img src="images/icon-previous.svg" alt="">
       </div>
-      <div class="product-details-wrapper">
-        <p class="product-brabd">Sneaker Company</p>
-        <h1 class="product-title">Fall Limited Edition Sneakers</h1>
-        <p class="product-description">
-          These low-profile sneakers are your perfect casual wear companion.
-          Featuring a durable rubber outer sole, they’ll withstand everything
-          the weather can offer.
-        </p>
-
-        <div class="product-price">
-          <div class="current-price-wrapper">
-            <h2 class="current-price">$125.00</h2>
-            <span class="discount">50%</span>
-          </div>
-          <div class="previous-price-wrapper">
-            <span class="previous-price">$250.00</span>
-          </div>
-        </div>
+      <img src="images/image-product-1.jpg" class="product1" id="product1" alt="product1">
+      <div class="previous-and-next" id="previous-image">
+        <img src="images/icon-next.svg" alt="">
       </div>
-
-      <div class="product-cart">
-        <div class="product-quantity">
-          <button type="button" class="button minus">
-            <img src="./images/icon-minus.svg" alt="Minus Icon" />
-          </button>
-          <span class="product-quantity-num">0</span>
-          <button type="button" class="button plus">
-            <img src="./images/icon-plus.svg" alt="Plus Icon" />
-          </button>
+      <div class="thumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" class="product-thumbnail active-thumbnail" alt="image-product-1">
+        <img src="images/image-product-2-thumbnail.jpg" class="product-thumbnail" alt="image-product-2">
+        <img src="images/image-product-3-thumbnail.jpg" class="product-thumbnail" alt="image-product-3">
+        <img src="images/image-product-4-thumbnail.jpg" class="product-thumbnail" alt="image-product-4">
+      </div>
+    </div>
+    <div class="container2">
+      <h4>SNEAKER COMPANY</h4>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p class="description">These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they'll withstand everything
+        the weather can offer.
+      </p>
+      <div class="price-and-discount">
+        <h3>$125 <span class="discount">50%</span></h3>
+      </div>
+      <p class="old-price"><strike>$250.00</strike></p>
+      <div class="add-to-cart">
+        <div class="plus-and-minus">
+          <img src="images/icon-minus.svg" id="minus" alt="minus">
+          <span id="quantity">0</span>
+          <img src="images/icon-plus.svg" id="plus" alt="plus">
         </div>
-
-        <button type="submit" aria-label="Add to cart" class="button add-btn">
-          <img src="./images/icon-cart.svg" alt="" />
-          Add to cart
+        <button class="cart-btn">
+          <img src="images/icon-cart.svg" alt="cart">
+          <span>Add To Cart</span>
         </button>
-
-        <p class="form-alert"></p>
-      </div>
-
-      <!-- small images -->
-      <div class="minors">
-        <div class="thumb-image active">
-          <img src="./images/image-product-1-thumbnail.jpg" alt="" />
-        </div>
-        <div class="thumb-image">
-          <img src="./images/image-product-2-thumbnail.jpg" alt="" />
-        </div>
-        <div class="thumb-image">
-          <img src="./images/image-product-3-thumbnail.jpg" alt="" />
-        </div>
-        <div class="thumb-image">
-          <img src="./images/image-product-4-thumbnail.jpg" alt="" />
-        </div>
       </div>
     </div>
   </div>
-</body>
+
+  </body>
 
 </html>
